@@ -1,16 +1,16 @@
 
 # CatSync (Proof of Concept)
 
-CatSync is a C# console application that syncs the frequency between two transceivers.
-This app is intended at amateur radio operators.
+CatSync is a C# console application that syncs the frequency between (two) amateur radio Tansceivers or Receivers.
+This app is intended at Amateur Radio Operators and is offered as an example to anyone interested in the hobby.
 
 The current version supports the following CAT (Computer Aided Transceiver) protocols:
 
 - CI-V, Communications Interface 5
 - KSI, Kenwood Serial Protocol
 
-CI-V is used by ICOM and Xiegu transceivers. KSI is used KENWOOD transceivers.
-If there's enough interest support for Yeasu transceivers CAT protocol or support for Elecraft K3 protocol can easly be added. Contact me if interested.
+CI-V is used by ICOM and Xiegu Transceivers. KSI is used by KENWOOD Transceivers.
+If there's enough interest, support for Yeasu Transceivers CAT protocol and/or support for Elecraft K3 protocol can easly be added. Please contact m if interested.
 
 
 ## Demo
@@ -22,19 +22,19 @@ Here, you can watch a video of CatSync being tested with a KENWOOD TS-590S and a
 
 ## Documentation
 
-To use the application you shoud edit the Xcvrs.json configuration file located in
+To use the application you shoud edit the Xcvrs.json configuration file located in the following folder:
 
-CatSyncPoc\Xcvr\Config
+..\\CatSyncPoc\Xcvr\Config
 
 The configuration file uses the JSON format, so after any change please make sure your file is compliant (I suggest using a free JSON validator service like [JSONLint](https://jsonlint.com/)
 
-Here's an explanation on all parameters on the config file (for one Transceiver):
+Here's an explanation on all parameters in the config file (for one Transceiver):
 
-"Id": 1 for Transceiver #1, 2 for Transceiver #2. Do not edit.
+"Id": 1 for Transceiver #1, 2 for Transceiver #2. Please do not edit.
 "Manufacturer": Free text for your Transceiver manufacturer. Edit at will.
 "Model": Free text for your Transceiver model. Edit at will.
-"Protocol": This is the CAT protocol used by your Transceiver. Currently upported values are "CIV" and "KSI".
-"Timeout": This is the time period, in miliseconds, a Transceiver needs to process a CAT request and reply to it if necessary. Lower limit is about 100 miliseconds for most Transceivers. I sugest a value around 200 miliseconds.
+"Protocol": This is the CAT protocol used by your Transceiver. Currently supported values are "CIV" and "KSI".
+"Timeout": This is the time period, in miliseconds, a Transceiver needs to process a CAT request and reply to it. Lower limit is about 100 miliseconds for most Transceivers. I sugest a value around 200 miliseconds.
 
 Commands:
 "Read": The CAT command your Transceiver uses to read a frequency.
@@ -52,22 +52,22 @@ PortSettings:
 "StopBits": Use the recommended stopbits for serial communication with your Transceiver. Usually this value is "One".
 "Handshake": Use the recommended stopbits for serial communication with your Transceiver. Usually this value is "RequestToSend".
 
-The provied configuration file is set to work with a KENWOOOD Model TS-590S and a Xiegu Model X6100. Adjust accordingly to fit your Transceivers.
+The provied configuration file is set to work with a KENWOOOD Model TS-590S and a Xiegu Model X6100. Adjust accordingly to fit your Transceivers/Receivers.
 
 
 ## Functionalities
 
-- Supports Transceivers that can be CAT controlled via CI-V or KSI protocols.
-- Widely Configurable
-- Low Latency
-- Tested with a KENWOOD TS-590S and a Xiegu X6100..
+- Supports Transceivers/Receivers that can be CAT controlled via CI-V or KSI protocols.
+- Widely Configurable.
+- Low Latency.
+- Tested with a KENWOOD TS-590S and a Xiegu X6100.
 
 
 ## Limitations
 
 - Code has scarse use of Try/Catch blocks.
 - CI-V and KSI only (at this time).
-- Does not recover from any Exception.
+- Does not recover from any code Exception.
 
 
 ## Autores
