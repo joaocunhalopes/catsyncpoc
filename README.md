@@ -31,26 +31,44 @@ The configuration file uses the JSON format, so after any change please make sur
 Here's an explanation on all parameters in the config file (for one Transceiver):
 
 "Id": 1 for Transceiver #1, 2 for Transceiver #2. Please do not edit.
+
 "Manufacturer": Free text for your Transceiver manufacturer. Edit at will.
+
 "Model": Free text for your Transceiver model. Edit at will.
+
 "Protocol": This is the CAT protocol used by your Transceiver. Currently supported values are "CIV" and "KSI".
+
 "Timeout": This is the time period, in miliseconds, a Transceiver needs to process a CAT request and reply to it. Lower limit is about 100 miliseconds for most Transceivers. I sugest a value around 200 miliseconds.
 
 Commands:
+
 "Read": The CAT command your Transceiver uses to read a frequency.
+
 "ReadPrefix: The string prefixing a reply to a Read command.
+
 "ReadSuffix: The string sufixing a reply to a Read command.
+
 "Write: The CAT command your Transceiver uses to set a frequency.
+
 "WritePrefix: The string prefixing a reply to a Write command.
+
 "WriteSuffix: The string sufixing a reply to a Write command.
 
+
 PortSettings:
+
 "PortName": Use "COMx" where x is the CAT port for your Transceiver.
+
 "BaudRate": Use the recommended port speed for serial communication with your Transceiver.
+
 "Parity": Use the recommended parity for serial communication with your Transceiver. Usually this value is "None".
+
 "DataBits": Use the recommended databits for serial communication with your Transceiver. Usually this value is 8.
+
 "StopBits": Use the recommended stopbits for serial communication with your Transceiver. Usually this value is "One".
+
 "Handshake": Use the recommended stopbits for serial communication with your Transceiver. Usually this value is "RequestToSend".
+
 
 The provied configuration file is set to work with a KENWOOOD Model TS-590S and a Xiegu Model X6100. Adjust accordingly to fit your Transceivers/Receivers.
 
