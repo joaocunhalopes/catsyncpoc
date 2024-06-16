@@ -22,9 +22,9 @@ Here, you can watch a video of CatSync being tested with a KENWOOD TS-590S and a
 
 ## Documentation
 
-To use the application you shoud edit the Xcvrs.json configuration file located in the following folder:
+To use the application you shoud edit the Xcvrs.json configuration file located at:
 
-..\\CatSyncPoc\Xcvr\Config
+CatSyncPoc\Xcvr\Config\Xcvrs.json
 
 The configuration file uses the JSON format, so after any change please make sure your file is compliant (I suggest using a free JSON validator service like [JSONLint](https://jsonlint.com/)
 
