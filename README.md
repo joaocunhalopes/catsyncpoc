@@ -15,9 +15,10 @@ If there's enough interest support for Yeasu transceivers CAT protocol or suppor
 
 ## Demo
 
-You can see CatSync working here: [Demo of CatSync](https://www.youtube.com/watch?v=FZajYRjz7ec)
-
 ![CatSyncPoc](https://github.com/joaocunhalopes/catsyncpoc/assets/172989666/33b2c3f8-2b86-4d73-941d-66026f8ab2aa)
+
+Here, you can watch a video of CatSync being tested with a KENWOOD TS-590S and a Xiegu X6100: [Demo of CatSync](https://www.youtube.com/watch?v=FZajYRjz7ec)
+
 
 ## Documentation
 
@@ -61,11 +62,13 @@ The provied configuration file is set to work with a KENWOOOD Model TS-590S and 
 - Low Latency
 - Tested with a KENWOOD TS-590S and a Xiegu X6100..
 
+
 ## Limitations
 
 - Code has scarse use of Try/Catch blocks.
 - CI-V and KSI only (at this time).
 - Does not recover from any Exception.
+
 
 ## Autores
 
