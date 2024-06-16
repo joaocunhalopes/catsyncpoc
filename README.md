@@ -1,7 +1,7 @@
 
 # CatSync (Proof of Concept)
 
-CatSync (Poc) is a C# console application that syncs the frequency between (two) amateur radio Tansceivers or Receivers.
+CatSync (Poc) is a C# console application that syncs the frequency between two Amateur Radio Tansceivers or Receivers.
 This app is intended at Amateur Radio Operators and is offered as an example to anyone interested in the hobby.
 
 The current version supports the following CAT (Computer Aided Transceiver) protocols:
@@ -78,7 +78,7 @@ The provied configuration file is set to work with a KENWOOOD Model TS-590S and 
 - Supports Transceivers/Receivers that can be CAT controlled via CI-V or KSI protocols.
 - Widely Configurable.
 - Low Latency.
-- Tested with a KENWOOD TS-590S and a Xiegu X6100.
+- Tested with a Kenwood TS-590S and a Xiegu X6100.
 
 
 ## Limitations
