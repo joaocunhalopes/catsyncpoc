@@ -1,7 +1,7 @@
 
 # CatSync (Proof of Concept)
 
-CatSync (Poc) is a C# Windows application that syncs the frequency between two Amateur Radio Tansceivers or Receivers.
+CatSync (Poc) is a C# Windows Application that syncs the frequency between two Amateur Radio Tansceivers or Receivers.
 This app is intended at Amateur Radio Operators and is offered as an example to anyone interested in the hobby.
 
 The current version supports the following CAT (Computer Aided Transceiver) protocols:
@@ -9,13 +9,13 @@ The current version supports the following CAT (Computer Aided Transceiver) prot
 - CI-V, Communications Interface 5
 - KSI, Kenwood Serial Protocol
 
-CI-V is used by ICOM and Xiegu Transceivers. KSI is used by KENWOOD Transceivers.
+CI-V is used by ICOM and Xiegu Transceivers. KSI is used by Kenwood Transceivers.
 If there's enough interest, support for Yeasu Transceivers CAT protocol and/or support for Elecraft K3 protocol can easly be added. Please contact m if interested.
 
 
 ## Demo
 
-Here, you can watch a couplee of quick videos of CatSync being tested with a KENWOOD TS-590S and a Xiegu X6100:
+Here, you can watch a couplee of quick videos of CatSync being tested with a Kenwood TS-590S Transceiver and a Xiegu X6100 Transceiver:
 
 [![CatSyncPoc Demo](https://img.youtube.com/vi/FZajYRjz7ec/sddefault.jpg)](https://www.youtube.com/watch?v=FZajYRjz7ec)
 
