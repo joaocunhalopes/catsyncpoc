@@ -1,7 +1,7 @@
 
 # CatSync (Proof of Concept)
 
-CatSync (Poc) is a C# Windows Application that syncs the frequency between two Amateur Radio Tansceivers or Receivers.
+CatSync (PoC) is a C# Windows Application that syncs the frequency between two Amateur Radio Tansceivers or Receivers.
 This app is intended at Amateur Radio Operators and is offered as an example to anyone interested in the hobby.
 
 The current version supports the following CAT (Computer Aided Transceiver) protocols:
@@ -17,7 +17,7 @@ If there's enough interest, support for Yeasu Transceivers CAT protocol and/or s
 
 Here, you can watch a couple of quick videos of CatSync being tested with a Kenwood TS-590S Transceiver and a Xiegu X6100 Transceiver:
 
-[![CatSyncPoc Demo](https://img.youtube.com/vi/FZajYRjz7ec/sddefault.jpg)](https://www.youtube.com/watch?v=FZajYRjz7ec)
+[![CatSyncPoC Demo](https://img.youtube.com/vi/FZajYRjz7ec/sddefault.jpg)](https://www.youtube.com/watch?v=FZajYRjz7ec)
 
 [![CatSync v0.0.2-alpha Demo](https://img.youtube.com/vi/1GEGxY4AOv4/sddefault.jpg)](https://www.youtube.com/watch?v=1GEGxY4AOv4)
 
