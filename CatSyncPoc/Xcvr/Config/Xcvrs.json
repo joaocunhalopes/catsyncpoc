@@ -33,7 +33,7 @@
         "Read": "FEFEA4E003FD",
         "ReadPrefix": "FEFEE0A403",
         "ReadSufix": "FD",
-        "Write": "FEFEA4E025000000000000FD;",
+        "Write": "FEFEA4E025000000000000FD",
         "WritePrefix": "FEFEA4E025",
         "WriteSufix": "FD"
       },
