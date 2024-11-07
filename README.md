@@ -17,9 +17,9 @@ If there's enough interest, support for Yeasu Transceivers CAT protocol and/or s
 
 Here, you can watch a couple of quick videos of CatSync being tested with a Kenwood TS-590S Transceiver and a Xiegu X6100 Transceiver:
 
-[![CatSyncPoC Demo](https://img.youtube.com/vi/FZajYRjz7ec/sddefault.jpg)](https://www.youtube.com/watch?v=FZajYRjz7ec)
+[![CatSyncPoC Demo](https://img.youtube.com/vi/_00JY6UxWrs/sddefault.jpg)](https://www.youtube.com/watch?v=_00JY6UxWrs)
 
-[![CatSync v0.0.2-alpha Demo](https://img.youtube.com/vi/1GEGxY4AOv4/sddefault.jpg)](https://www.youtube.com/watch?v=1GEGxY4AOv4)
+[![CatSync v0.0.2-alpha Demo](https://img.youtube.com/vi/IhloyOedxI8/sddefault.jpg)](https://www.youtube.com/watch?v=IhloyOedxI8)
 
 ## Documentation
 
